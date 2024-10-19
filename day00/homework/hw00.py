@@ -4,9 +4,15 @@ shape("turtle")
 
 penup()
 goto (-500 , -100)
+goto (500 , -100)
+goto (-500 , 100)
+goto (500 , 100)
+goto (0 , -100)
+goto (0 , 100)
+goto (-500 , -100)
 pendown()
 
-speed(100000000000)
+# speed(100000000000)
 
 color ("purple")
 width(5)
@@ -202,7 +208,6 @@ goto(-150, 0)
 pendown()
 color("black")
 right(90)
-
 
 
 
