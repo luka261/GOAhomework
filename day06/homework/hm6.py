@@ -48,7 +48,7 @@ def check_grade_scores(score):
     elif 0 <= score <= 39:
         return "You got an F, you failure!"
     else:
-        return "Invalid score! Please enter a score between 0 and 100."
+        return "Invalid score enter a score between 0 and 100 you idiot"
 
 user_input = input("Please enter your score: ")
 
