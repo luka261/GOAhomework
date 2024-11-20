@@ -1,18 +1,18 @@
 # 2) შექმენით ფუნქცია რომელიც დააბრუნებს "You got discount" თუ მომხმარებელი არის არასრულწლოვანი, სხვა შემთხვევაში დააბრუნებს "You didn't get discount"
 
-# age = int(input("your age pls")) 
-# if age<18  is True :
+ age = int(input("your age pls")) 
+ if age<18  is True :
 
-#     print("you got a 50%' discount")
-# else:
-#     print("nah u get no discount")
+     print("you got a 50%' discount")
+else:
+     print("nah u get no discount")
 
-# # 3) შექმენით ფუნქცია manual_reverse, რომელიც არგუმენტად მიიღებს string'ს და დააბრუნებს ამ string'ს ოღონდ შეტრიალებულად
+ # 3) შექმენით ფუნქცია manual_reverse, რომელიც არგუმენტად მიიღებს string'ს და დააბრუნებს ამ string'ს ოღონდ შეტრიალებულად
 
-# def manual_reverse(input_string):
-#     return input_string[::-1]
+ def manual_reverse(input_string):
+     return input_string[::-1]
 
-# print(manual_reverse("hello"))
+ print(manual_reverse("hello"))
 
 # 4) გატესტეთ .upper(), .lower(), .capitalize(), .swapcase() და .find() მეთოდები
 
