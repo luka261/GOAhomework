@@ -12,7 +12,7 @@ goto (0 , 100)
 goto (-500 , -100)
 pendown()
 
-# speed(100000000000)
+speed(100000000000)
 
 color ("purple")
 width(5)
