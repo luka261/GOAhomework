@@ -1,0 +1,9 @@
+/* <!-- 5) შექმენით external ფაილი css'ისთვის, დააკავშირეთ html'თან, html'ში შექმენით p tag'ი, ფერი მიეცით წითელი,  -->
+<!-- ადგილმდებარეობა ცენტრი და ფონის ფერი შავი --> */
+
+p{
+    color:red;
+    background-color: black;
+    text-align: center;
+
+}

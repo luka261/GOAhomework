@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../hackatoni"
+		},
+		{
+			"path": "../../../my game"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GOAwork"
+	}
+}
