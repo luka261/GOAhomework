@@ -4,21 +4,7 @@
     <meta charset="UTF-8">
     <meta name="live or die" content="width=device-width, initial-scale=1.0">
     <title>try or die</title>
-    <script>
-        function validateEmail(event) {
-            event.preventDefault(); // Prevent form submission
-            const emailInput = document.getElementById("email").value;
-            const message = document.getElementById("message");
 
-            if (!emailInput.endsWith("@gmail.com")) {
-                message.textContent = "Please add '@gmail.com' to the email address.";
-                message.style.color = "red";
-            } else {
-                message.textContent = "Email is valid!";
-                message.style.color = "green";
-            }
-        }
-    </script>
 </head>
 <body>
     <form onsubmit="validateEmail(event)">

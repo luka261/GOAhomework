@@ -1,0 +1,61 @@
+<!-- 1) ახსენით რა არის style inheritance და რაში შეგვიძლია გამოვიყენოთ  -->
+<!-- 2) გატესტეთ style inheritance ისევე როგორც მე გავაკეთე, p და b tag'ების ფერების მაგალითზე -->
+<!-- 3) ჩამოწერეთ ამ ოთხის პრივილეგია თანმიმდევრობით, მაღლიდან დაბლისკენ: Classes, IDs, Inline, Elements -->
+<!-- 4) დაწერეთ რაიმე კომენტარი css'ის ფაილში -->
+<!-- 5) შექმენით 9 p tag და style inheritance წესის მიხედვით და div'ის მეშვეობით წითელი ფერი მიეცით მხოლოდ შუა სამს -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stely.CSS">
+</head>
+<body>
+    
+<h1> style inheritance </h1>
+<h3> style inheritance არის ასეთი რამ როდესაც ერთი კოდი არის ჩანესტილი მეორეში, <br> ასევთქვათ ერთი არის მშობელი და მეორე მისი შვილი,
+<br> როგორც dnm არის ისე ერთ მშობელს თუ აქვს წითელი თმა და მაწვანე თვალები <br> შესაძლებელია მისმა შთამომავლობებმაც აიღოს ეს  </h3>
+
+<p>მაგალითად ეს ტექსტი მოდი რამოდენიმე სიტყვებს ჩამოვწერ და ფერებს შევუცვლი</p>
+<p id="p1">ეს არის <b id="b1">დიდი ზომით</b> და ფერადი ტექსტი</p>
+<h3>
+Elements<br>
+p {<br>
+    color: blue;<br>
+}<br>
+<p style="color: rgb(13, 0, 255);"> IDs </p><br>
+
+Classes<br>
+.p {<br>
+    color: green;<br>
+}<br>
+<p class="example" class="p" style="color: rgb(0, 109, 26);"> Classes </p><br>
+
+IDs<br>
+#example {<br>
+    color: red;<br>
+}<br>
+<p id="example" style="color: rgb(255, 0, 0);"> IDs </p><br>
+
+Inline Styles<br>
+<br>
+< p id="example"  style="color: rgb(0, 4, 255);"> Inline Styles < /p><br>
+
+</h3>
+
+<p>პირველი ტექსტი</p>
+<p>მეორე ტექსტი</p>
+<p>მესამე ტექსტი</p>
+<div>
+    <p>მეოთხე ტექსტი</p>
+    <p>მეხუთე ტექსტი</p>
+    <p>მეექვსე ტექსტი</p>
+</div>
+<p>მეშვიდე ტექსტი</p>
+<p>მერვე ტექსტი</p>
+<p>მეცხრე ტექსტო</p>
+
+</body>
+</html>
