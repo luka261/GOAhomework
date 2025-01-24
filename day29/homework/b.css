@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Iso&family=Rubik+Storm&display=swap');
+
+
+
+body{
+  height: 100cm;
+  font-family: "Rubik Iso", "Rubik Storm", "Rubik Glitch", serif;
+  background-color: darkgray;
+}
+
+#id1{
+  text-shadow: 4px 0px 4px #b5295f; 
+  
+}
+#id2{
+  text-shadow: 4px 0px 4px #241567a1;
+}
+#id3{
+  text-shadow: 4px 0px 4px #1eef0ba1;
+}
+h3 {
+  color: white;
+}
+h1 {
+  color: white;
+}
