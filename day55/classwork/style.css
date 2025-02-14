@@ -1,0 +1,7 @@
+.box{
+    width: 100px;
+    height: 100px;
+    animation-name: Spin the fuck;
+    animation-duration: 2;
+    animation-iteration-count: infinite;
+}
