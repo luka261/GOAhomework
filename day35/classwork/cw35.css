@@ -1,0 +1,62 @@
+tr:nth-child(odd){
+    background-color: red;
+    color: #fff;
+}
+tr:nth-child(1){
+    background-color: black;
+    color: red;
+}
+
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+.no-bullets {
+    list-style-type: none;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type="email"] {
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type="password"] {
+    border: 2px solid red;
+    padding: 5px;
+    margin: 5px;
+}
+.lemon {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50% / 60%;
+    position: relative;
+}
+
+.lemon::before,
+
+.lemon::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lemon::before {
+    left: -10px;
+}
+
+.lemon::after {
+    right: -10px;
+}
